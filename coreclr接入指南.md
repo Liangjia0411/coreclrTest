@@ -25,4 +25,4 @@
 
 - https://zhuanlan.zhihu.com/p/415875455
 - https://learn.microsoft.com/en-us/dotnet/core/tutorials/netcore-hosting
-- 
+- https://github.com/dotnet/samples/tree/main/core/hosting/src
