@@ -3,6 +3,7 @@
 - [步骤](#步骤)
     - [创建一个C++控制台工程](#创建一个C++控制台工程)
     - [拷贝核心头文件](#拷贝核心头文件)
+    - [配置IncludeDir](#配置includedir)
 - [参考文档](#参考文档)
 ## 步骤
 
@@ -19,7 +20,13 @@
     - coreclr_delegates.h
     - hostfxr.h
 
-- 以当前项目为例，拷贝到`{sln dir}/TestA/dotnet/include/`目录下
+- 以当前项目(TestA)为例，拷贝到`{sln dir}/TestA/dotnet/include/`目录下
+
+### 配置IncludeDir
+
+- 目的：使得在工程中能直接include coreclr的 [核心的头文件](#拷贝核心头文件)
+- 设置TestA.vcxproj的属性，如下图所示：
+![alt text](media/image.png)
 
 ## 参考文档
 
